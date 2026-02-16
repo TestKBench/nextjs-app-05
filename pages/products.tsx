@@ -25,8 +25,8 @@ export default function Products() {
             </div>
           ))}
         </div>
-        <Link href="/">
-          <a className={styles.link}>← Back to Home</a>
+        <Link href="/" className={styles.link}>
+          ← Back to Home
         </Link>
       </main>
     </>

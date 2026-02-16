@@ -14,8 +14,8 @@ export default function About() {
         <p className={styles.description}>
           This is a sample Next.js 13.4 application using the Pages Router.
         </p>
-        <Link href="/">
-          <a className={styles.link}>← Back to Home</a>
+        <Link href="/" className={styles.link}>
+          ← Back to Home
         </Link>
       </main>
     </>
