@@ -12,7 +12,7 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Products - NextJS App 01</title>
+        <title>Products - NextJS App 05</title>
         <meta name="description" content="Product catalog" />
       </Head>
       <main className={styles.main}>
@@ -25,8 +25,8 @@ export default function Products() {
             </div>
           ))}
         </div>
-        <Link href="/">
-          <a className={styles.link}>← Back to Home</a>
+        <Link href="/" className={styles.link}>
+          ← Back to Home
         </Link>
       </main>
     </>
